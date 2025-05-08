@@ -2,6 +2,8 @@ defmodule Main do
   Code.require_file("day1.exs")
   Code.require_file("day2.exs")
   Code.require_file("day3.exs")
+  Code.require_file("day4.exs")
+  Code.require_file("day5.exs")
 
   def main_f do
     day1 = File.read!("day1.txt")
@@ -14,6 +16,14 @@ defmodule Main do
 
     day3 = File.read!("day3.txt")
     Day3.solve1(day3)
+
+    {:ok, day4} = File.read("day4_dummy.txt")
+    # Day4.solve1(day4)
+    # Day4.part1(day4)
+
+    {:ok, day5} = File.read("day5.txt")
+
+    Day5.solve1(day5)
   end
 end
 
