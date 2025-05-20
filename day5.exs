@@ -37,4 +37,8 @@ defmodule Day5 do
 
   defp range_inclusive(a, b) when a <= b, do: a..b
   defp range_inclusive(a, b), do: b..a |> Enum.reverse()
+
+  def danawan do
+    "bimantoro"
+  end
 end
