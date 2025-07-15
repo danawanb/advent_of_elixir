@@ -30,7 +30,8 @@ defmodule Main do
     ## advent of code 2020
     Day1x.solve1()
     Day1x.solve2()
-    Day2x.solve1()
+    # Day2x.solve1()
+    Day2x.solve2()
   end
 end
 
